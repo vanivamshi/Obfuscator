@@ -1,7 +1,7 @@
 # Obfuscator
 Code uses the following,
 
-1) Advanced Mutation Techniques
+1) Advanced Mutation Techniques - 
 (a) Control Flow Alteration: Replaces if statements with if True: pass to add redundant checks,
 (b) Dynamic Code Generation: Encrypts the original code and uses exec to execute the decrypted code,
 (c) Code Encryption and Decryption: Encrypts the original code using Base64 encoding and decrypts it at runtime
@@ -12,11 +12,11 @@ Code uses the following,
 
 4) Control Flow Flattening - Flatten Control Flow: Inserts if True: pass to flatten control flow in the code
 
-5) Variable and Function Transformation:
+5) Variable and Function Transformation - 
 (a) Inline Functions: Function inlining is not explicitly shown but can be added as needed,
 (b) Function Splitting: More complex splitting techniques can be incorporated as needed
 
-6) Dynamic Runtime Alteration
+6) Dynamic Runtime Alteration - 
 (a) Code Swapping: This example does not directly swap code but demonstrates dynamic execution with exec,
 (b) Self-Modifying Code: The script itself does not modify at runtime but could be extended to include such functionality
 
