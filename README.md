@@ -1,4 +1,9 @@
 # Obfuscator
+
+Original.py - contains original program
+
+Mutator.py - contains obfuscated code
+
 Code uses the following,
 
 1) Advanced Mutation Techniques - 
